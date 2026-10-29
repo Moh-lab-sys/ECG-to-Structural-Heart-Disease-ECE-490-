@@ -34,6 +34,12 @@ Access requires a PhysioNet credentialed account and acceptance of the data use 
 - Calibration
 - Patient-level train/val/test splits, so no patient appears in more than one split
 
+## Setup
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Repository structure
 
 ```

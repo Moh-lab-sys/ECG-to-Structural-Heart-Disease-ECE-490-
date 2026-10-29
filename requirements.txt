@@ -1,0 +1,23 @@
+# Core
+numpy
+pandas
+scipy
+
+# ECG signal loading and processing (PhysioNet / WFDB format)
+wfdb
+neurokit2
+
+# Measurement-based model
+scikit-learn
+xgboost
+
+# Waveform model
+torch
+
+# Plotting
+matplotlib
+seaborn
+
+# Notebooks
+jupyter
+tqdm
