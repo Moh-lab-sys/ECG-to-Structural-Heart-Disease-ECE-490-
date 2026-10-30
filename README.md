@@ -34,6 +34,10 @@ Access requires a PhysioNet credentialed account and acceptance of the data use 
 - Calibration
 - Patient-level train/val/test splits, so no patient appears in more than one split
 
+## Preprocessing
+
+See [`docs/preprocessing.md`](docs/preprocessing.md) for how the EchoNext flags map to the four targets, how categorical columns are encoded, which echo-derived columns are excluded to prevent label leakage, and how features are scaled and split.
+
 ## Setup
 
 ```bash
@@ -44,6 +48,7 @@ pip install -r requirements.txt
 
 ```
 data/        # local only, not tracked (EchoNext files)
+docs/        # project documentation (preprocessing decisions)
 notebooks/   # exploration and analysis
 src/         # data loading, models, training, evaluation
 results/     # metrics tables and figures
